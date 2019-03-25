@@ -1,0 +1,48 @@
+.titleinput {
+    height:2rem;
+    width:90%;
+    
+}
+body {
+    
+    background-color: rgba(0, 0, 0, 0.025);
+}
+.form-group {
+    margin-top: 12px;
+    display: flow-root;
+}
+.titlelabel {
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 4px;
+
+}
+small {
+    float: left;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+.btn {
+    background-color: rgb(34, 141, 241);
+    margin: 0 16px 0 16px;
+    padding: 16px 0 16px 0;
+    margin-top: 12px;
+    border: 1px solid rgb(10, 133, 248);
+    border-radius: 4px; 
+    display: block;
+    color:#fff;
+}
+.btn-small {
+    background-color: rgb(34, 141, 241);
+    margin: 0 16px 0 16px;
+    padding: 16px 16px 16px 16px;
+    margin-top: 12px;
+    border: 1px solid rgb(10, 133, 248);
+    border-radius: 4px; 
+    display: block;
+    color:#fff;
+}
+
+* {
+    font-family: sans-serif;
+  }
