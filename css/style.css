@@ -28,6 +28,9 @@ input {
   border: 1px solid #c1c5c8;
 }
 
+#wrapper {
+  margin-top: -20px;
+}
 #sign-in {
   display: flex;
   flex-direction: row;
@@ -95,6 +98,9 @@ input {
 
   margin: 0 16px 0 16px;
 }
+#header-sub span {
+  padding-right: 6px;
+}
 
 #header-sub p > span {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
@@ -116,23 +122,30 @@ input {
 #header-icons {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   text-align: left;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   list-style: none;
+  margin-right: 21px;
+}
+#header-icons li {
+  padding-right: 3px;
+  color: grey;
 }
 #Header-icons li:nth-child(even) {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: lighter;
 
-  padding-right: 2rem;
-  font-size: 20px;
+  padding-right: 0.5rem;
+  font-size: 19px;
+}
+#Header-icons li:nth-child(odd) {
+  margin-top: 10px;
 }
 
 .titleinput {
@@ -198,7 +211,7 @@ small {
   width: 300px !important;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-size: 13.2px !important;
+  font-size: 13.2px !important ;
   padding-left: 1.8rem;
 }
 
@@ -229,4 +242,8 @@ small {
   padding-top: 10px;
   font-weight: lighter;
   color: var(--main-color);
+}
+
+#phone-text {
+  color: #484848;
 }
