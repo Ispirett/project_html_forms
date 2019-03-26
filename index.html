@@ -12,9 +12,12 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
   </head>
   <body>
-    
     <div class="sign-in" style="float:right; display: flex;">
       <div id="sign-in-info">
         <h4>Already have an Intuit account?</h4>
@@ -28,87 +31,101 @@
     <br />
     <br />
     <div id="wrapper">
-    <header id="header">
-      <h1 id="header-title">intuit</h1>
+      <header id="header">
+        <img id="header-title" src="image/logo.png" alt="logo" />
 
-      <ul id="header-icons">
-        <li>
-          <img
-            src=" https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg"
-            width="20"
-            height="20"
-            alt="icon"
-          />
-        </li>
-        <li>mint</li>
-        <li>
-          <img
-            src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg"
-            width="20"
-            height="20"
-            alt="icon"
-          />
-        </li>
-        <li>quickbooks</li>
-        <li>
-          <img
-            src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg "
-            width="20"
-            height="20"
-            alt="icon"
-          />
-        </li>
-        <li>turbotax</li>
-      </ul>
-    </header>
+        <ul id="header-icons">
+          <li>
+            <img
+              src=" https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg"
+              width="20"
+              height="20"
+              alt="icon"
+              class="animated bounce delay-1s"
+            />
+          </li>
+          <li class="animated bounce delay-6s">mint</li>
+          <li>
+            <img
+              src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg"
+              width="20"
+              height="20"
+              alt="icon"
+              class="animated bounce delay-2s"
+            />
+          </li>
+          <li class="animated bounce delay-5s">quickbooks</li>
+          <li>
+            <img
+              src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg "
+              width="20"
+              height="20"
+              alt="icon"
+              class="animated bounce delay-3s"
+            />
+          </li>
+          <li class="animated bounce delay-4s">turbotax</li>
+        </ul>
+      </header>
 
-    <div id="header-sub">
-      <h1>One Account</h1>
-      <h2>Everything Intuit</h2>
-      <p>Create an account for all of Intuit's products</p>
-      <p>including Mint. <span>Learn more</span></p>
+      <div id="header-sub">
+        <h1>One Account</h1>
+        <h2>Everything Intuit</h2>
+        <p>Create an account for all of Intuit's products</p>
+        <p>including Mint. <span>Learn more</span></p>
 
-      <form>
-        <div class="form-group">
-          <label class="titlelabel">Email address</label>
+        <form>
+          <div class="form-group">
+            <label class="titlelabel">Email address</label>
+            <br />
+            <input class="titleinput" type="email" />
+          </div>
+          <div class="form-group">
+            <label class="titlelabel">Phone (recommended)</label>
+            <br />
+            <input class="titleinput" type="number" />
+            <small id="phone-text"
+              >Standard call, messaging or data rates may apply.</small
+            >
+          </div>
+          <div class="form-group">
+            <label class="titlelabel">Password</label>
+            <br />
+            <input id="password" class="titleinput " type="password" />
+          </div>
+
+          <a class="btn"><i class="fas fa-lock"></i> Create Account </a>
           <br />
-          <input class="titleinput" />
+          <p id="small-footer">
+            By clicking Create Account, you agree to our
+            <i>Terms of Service</i> and have read and acknowledge our
+            <i>Privacy Statement</i>.
+          </p>
+        </form>
+        <div id="small-footer-2">
+          <p class="" style="float:unset">
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Use</a>.
+          </p>
         </div>
-        <div class="form-group">
-          <label class="titlelabel">Phone (recommended)</label>
-          <br />
-          <input class="titleinput" />
-          <small id="phone-text">Standard call, messaging or data rates may apply.</small>
-        </div>
-        <div class="form-group">
-          <label class="titlelabel">Password</label>
-          <br />
-          <input class="titleinput" />
-        </div>
-
-        <a class="btn"><i class="fas fa-lock"></i> Create Account </a>
-        <br />
-        <p id="small-footer">
-          By clicking Create Account, you agree to our
-          <i>Terms of Service</i> and have read and acknowledge our
-          <i>Privacy Statement</i>.
-        </p>
-
-      </form>
-      <div id="small-footer-2">
-        <p class="" style="float:unset">
-          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
-          <a href="#">Terms of Use</a>.
-        </p>
       </div>
-    </div>
-    <small style="text-align:center;padding:32px 8rem 32px 8rem;"
-      >LegalPrivacySecurity © 2019 Intuit, Inc. All rights reserved. Intuit,
-      QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of
-      Intuit Inc. Terms and conditions, features, support, pricing, and service
-      options subject to change without notice.</small
-    >
+
+      <div id="page-footer">
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+      </div>
+
+      <p class="footer-p">
+        LegalPrivacySecurity © 2019 Intuit, Inc. All rights reserved. Intuit,
+        QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks
+        of Intuit Inc.
+      </p>
+
+      <p class="footer-p">
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
     </div>
   </body>
-
 </html>
