@@ -5,26 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body>
     <div style="float:right;display: flex;">
-        <div>
+        <div id="sign-in-info">
             <h4 style="margin-bottom:4px;">Already have an Intuit account?</h1>
               <a>I forgot my User ID or Password</a>
         </div>
         
-        <a class="btn-small" >Sign in</a>
+        <a class="btn-small" ><i class="fas fa-lock"></i>Sign in</a>
     </div>
     <br>
     <br>
+    <br> 
     <br>
-    <br>
-    <h1 style="text-align:center">intuit</h1>
-    <h2 style="text-align:center">mint quickbooks turbotax</h2>
-    <div style="text-align: center;border: 1px solid #000;width:24rem;background-color:white;margin: auto;margin-top:0.75rem;">
-      <h1 style="margin-bottom:4px;">One Account</h1>
-      <h2 style="margin-top:0px !important;">Everything Intuit</h2>
-      <p style="margin:0 16px 0 16px;">Create an account for all of Intuit's products including Mint. Learn more</p>
+    <header id="header">
+    <h1 id="header-title">intuit</h1>
+    
+     <ul id="header-icons">
+       <li> <img src=" https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg" width="32" height="32">  </li>
+       <li>mint </li>
+       <li><img src="https://accounts.intuit.com/IUS-Plugins/v2/images/quickbooks-favicon@2x.svg" width="32" height="32"> </li>
+       <li>quickbooks </li>
+       <li><img src="https://accounts.intuit.com/IUS-Plugins/v2/images/tt-favicon@2x.svg " width="32" height="32"> </li>
+       <li>turbotax</li>
+     </ul>
+
+    </header>
+
+    <div id="header-sub" >
+      <h1 >One Account</h1>
+      <h2 >Everything Intuit</h2>
+      <p >Create an account for all of Intuit's products </p>
+      <p>including Mint.<span>Learn more</span></p>
+
       <form>
         <div class="form-group">
             <label class="titlelabel" >Email address</label>
@@ -53,7 +68,7 @@
             <input class="titleinput" />
     
         </div>
-        <a class="btn">Create Account</a>
+        <a class="btn"><i class="fas fa-lock"></i> Create Account </a>
       <br>
         <small style="float:unset;margin:0 32px 0 32px;">By clicking Create Account, you agree to our
             Terms of Service and have read and acknowledge our Privacy Statement.</small>
