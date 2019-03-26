@@ -29,17 +29,17 @@ input {
   opacity: 0.7;
 }
 
-#wrapper {
+.wrapper {
   margin-top: -20px;
 }
-#sign-in {
+.sign-in {
   display: flex;
   flex-direction: row;
 }
-#sign-in-info {
+.sign-in-info {
 }
 
-#sign-in-info h4 {
+.sign-in-info h4 {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -48,7 +48,7 @@ input {
   margin-bottom: 1px;
 }
 
-#sign-in-info a {
+.sign-in-info a {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -58,11 +58,11 @@ input {
   color: var(--main-color);
 }
 
-#header {
+.header {
   text-align: center;
 }
 
-#header-sub {
+.header-sub {
   text-align: center;
   border: 1px solid #000;
   width: 24rem;
@@ -72,7 +72,7 @@ input {
   border: 1px solid #c1c5c8;
 }
 
-#header-sub h1 {
+.header-sub h1 {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -81,7 +81,7 @@ input {
   margin-bottom: 4px;
 }
 
-#header-sub h2 {
+.header-sub h2 {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -90,7 +90,7 @@ input {
   margin-top: 0px !important;
 }
 
-#header-sub p {
+.header-sub p {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -99,11 +99,11 @@ input {
 
   margin: 0 16px 0 16px;
 }
-#header-sub span {
+.header-sub span {
   padding-right: 6px;
 }
 
-#header-sub p > span {
+.header-sub p > span {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: normal;
@@ -112,13 +112,13 @@ input {
   color: #0077c5;
 }
 
-#header-title {
+.header-title {
   margin-bottom: -20px;
   opacity: 0.7;
   width: 11%;
   height: 11%;
 }
-#header-icons {
+.header-icons {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 12px;
@@ -132,19 +132,19 @@ input {
   margin-right: 21px;
 }
 
-#header-icons li {
+.header-icons li {
   padding-right: 5px;
   color: grey;
   font-size: 20px;
 }
-#Header-icons li:nth-child(even) {
+.Header-icons li:nth-child(even) {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: lighter;
 
   padding-right: 0.5rem;
 }
-#Header-icons li:nth-child(odd) {
+.Header-icons li:nth-child(odd) {
   margin-top: 10px;
 }
 
@@ -206,7 +206,7 @@ small {
   height: 22px !important;
 }
 
-#small-footer {
+.small-footer {
   text-align: center;
   width: 300px !important;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
@@ -215,17 +215,17 @@ small {
   padding-left: 1.8rem;
 }
 
-#small-footer i {
+.small-footer i {
   color: var(--main-color);
 }
-#small-footer-2 {
+.small-footer-2 {
   background-color: #e7e9ec;
   height: 3rem;
   color: rgba(0, 0, 0, 0.54);
   padding: 1rem 32px 0 32px;
 }
 
-#small-footer-2 p {
+.small-footer-2 p {
   text-align: center;
   width: 300px !important;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
@@ -233,7 +233,7 @@ small {
   padding-top: 10px;
   font-size: 10px !important;
 }
-#small-footer-2 a {
+.small-footer-2 a {
   text-decoration: none;
   text-align: center;
   width: 300px !important;
@@ -244,11 +244,11 @@ small {
   color: var(--main-color);
 }
 
-#phone-text {
+.phone-text {
   color: #484848;
 }
 
-#page-footer {
+.page-footer {
   padding-top: 20px;
 
   text-align: center;
@@ -257,13 +257,13 @@ small {
   font-weight: normal;
   font-size: 13px;
 }
-#page-footer a {
+.page-footer a {
   color: grey;
   padding-right: 0.5rem;
   text-decoration: none;
 }
 
-#page-footer a:hover {
+.page-footer a:hover {
   text-decoration: underline;
 }
 .footer-p {
@@ -277,13 +277,8 @@ small {
   margin: auto;
 }
 
-#the-end {
+.the-end {
   padding: 30px;
-}
-
-#paswword {
-  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/lock-1222-427266.png");
-  background-size: contain;
 }
 
 input[type="password"] {
