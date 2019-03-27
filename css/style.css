@@ -1,0 +1,290 @@
+:root {
+  --main-color: #0077c5;
+}
+
+body {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #eceef1 !important;
+}
+
+label {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 3;
+}
+
+small {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+input {
+  border: 1px solid #c1c5c8;
+  opacity: 0.7;
+}
+
+.wrapper {
+  margin-top: -20px;
+}
+.sign-in {
+  display: flex;
+  flex-direction: row;
+}
+.sign-in-info {
+}
+
+.sign-in-info h4 {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: -0.1px;
+  margin-bottom: 1px;
+}
+
+.sign-in-info a {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: var(--main-color);
+}
+
+.header {
+  text-align: center;
+}
+
+.header-sub {
+  text-align: center;
+  border: 1px solid #000;
+  width: 24rem;
+  background-color: white;
+  margin: auto;
+  margin-top: 0.75rem;
+  border: 1px solid #c1c5c8;
+}
+
+.header-sub h1 {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.header-sub h2 {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 0.5;
+  margin-top: 0px !important;
+}
+
+.header-sub p {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+
+  margin: 0 16px 0 16px;
+}
+.header-sub span {
+  padding-right: 6px;
+}
+
+.header-sub p > span {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #0077c5;
+}
+
+.header-title {
+  margin-bottom: -20px;
+  opacity: 0.7;
+  width: 11%;
+  height: 11%;
+}
+.header-icons {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-right: 21px;
+}
+
+.header-icons li {
+  padding-right: 5px;
+  color: grey;
+  font-size: 20px;
+}
+.Header-icons li:nth-child(even) {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: lighter;
+
+  padding-right: 0.5rem;
+}
+.Header-icons li:nth-child(odd) {
+  margin-top: 10px;
+}
+
+.titleinput {
+  height: 2rem;
+  width: 90%;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+.form-group {
+  margin-top: 12px;
+  display: flow-root;
+}
+.titlelabel {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+small {
+  float: left;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+.btn {
+  margin-top: 30px !important;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 0.5rem;
+  margin: 2px 16px 0 16px;
+  padding: 16px 0 16px 0;
+  margin-top: 12px;
+  border: 1px solid rgb(5, 15, 29);
+  border-radius: 4px;
+  display: block;
+
+  color: #fff;
+}
+.btn-small {
+  background-color: #0077c5;
+  margin: 0 16px 2px 16px;
+  padding: 7px;
+
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 4px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  width: 90px !important;
+  height: 22px !important;
+}
+
+.small-footer {
+  text-align: center;
+  width: 300px !important;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 13.2px !important ;
+  padding-left: 1.8rem;
+}
+
+.small-footer i {
+  color: var(--main-color);
+}
+.small-footer-2 {
+  background-color: #e7e9ec;
+  height: 3rem;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 1rem 32px 0 32px;
+}
+
+.small-footer-2 p {
+  text-align: center;
+  width: 300px !important;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  padding-top: 10px;
+  font-size: 10px !important;
+}
+.small-footer-2 a {
+  text-decoration: none;
+  text-align: center;
+  width: 300px !important;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  padding-top: 10px;
+  font-weight: lighter;
+  color: var(--main-color);
+}
+
+.phone-text {
+  color: #484848;
+}
+
+.page-footer {
+  padding-top: 20px;
+
+  text-align: center;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+.page-footer a {
+  color: grey;
+  padding-right: 0.5rem;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+.footer-p {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+
+  margin-top: 20;
+  margin: auto;
+}
+
+.the-end {
+  padding: 30px;
+}
+
+input[type="password"] {
+  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/lock-1222-427266.png");
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0.7;
+}
